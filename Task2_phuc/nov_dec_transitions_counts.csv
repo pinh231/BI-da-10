@@ -1,0 +1,5 @@
+﻿health_band,Stressed,Monitoring,Stable,Healthy
+Stressed,1,1,1,0
+Monitoring,10,115,11,0
+Stable,14,622,112,0
+Healthy,0,6,16,0

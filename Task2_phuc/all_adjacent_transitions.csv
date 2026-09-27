@@ -1,0 +1,5 @@
+﻿health_band_previous,Stressed,Monitoring,Stable,Healthy
+Stressed,3,26,36,5
+Monitoring,26,539,1112,17
+Stable,43,1758,5721,233
+Healthy,1,44,350,79

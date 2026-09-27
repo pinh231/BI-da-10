@@ -1,0 +1,20 @@
+{
+  "implementation": "Python csv, math, statistics; does not import pandas or numpy",
+  "checks": {
+    "909 matched customer IDs": true,
+    "Paired mean and median change": true,
+    "Geometric frequency multiplier": true,
+    "Geometric ticket multiplier": true,
+    "Geometric income multiplier": true,
+    "Exact multiplicative decomposition": true,
+    "Strict annual 52 observations /45 customers": true,
+    "Strict December 8 customers": true,
+    "Strict observations all spend above income": true,
+    "642 newly below 60": true,
+    "December tiers 25/656/91/146": true,
+    "No core source quality failures": true,
+    "No extended quality failures": true
+  },
+  "passed": 13,
+  "total": 13
+}
