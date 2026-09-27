@@ -1,0 +1,212 @@
+{
+  "N": 999,
+  "es_mean": 75.4,
+  "es_median": 78.17,
+  "es_std": 9.31,
+  "es_min": 12.8,
+  "es_max": 84.32,
+  "es_p10": 71.06,
+  "es_p25": 74.77,
+  "es_p75": 79.92,
+  "es_p90": 81.74,
+  "seg_counts": {
+    "Very High Engagement (\u226580)": {
+      "n": 241,
+      "pct": 24.12
+    },
+    "High Engagement (60\u201379.9)": {
+      "n": 668,
+      "pct": 66.87
+    },
+    "Moderate Engagement (40\u201359.9)": {
+      "n": 80,
+      "pct": 8.01
+    },
+    "Low Engagement (<40)": {
+      "n": 10,
+      "pct": 1.0
+    }
+  },
+  "ch_adoption": {
+    "POS": {
+      "customers": 999,
+      "adoption_pct": 100.0,
+      "txn_share": 58.82,
+      "spend_share": 58.54
+    },
+    "E-commerce": {
+      "customers": 989,
+      "adoption_pct": 99.0,
+      "txn_share": 8.73,
+      "spend_share": 9.62
+    },
+    "Mobile App": {
+      "customers": 980,
+      "adoption_pct": 98.1,
+      "txn_share": 7.69,
+      "spend_share": 7.61
+    },
+    "QR Payment": {
+      "customers": 975,
+      "adoption_pct": 97.6,
+      "txn_share": 19.85,
+      "spend_share": 19.63
+    },
+    "Recurring Payment": {
+      "customers": 942,
+      "adoption_pct": 94.3,
+      "txn_share": 4.92,
+      "spend_share": 4.61
+    }
+  },
+  "avg_osr": 0.2471,
+  "med_osr": 0.2036,
+  "cd_mean": 12.94,
+  "cd_median": 13.92,
+  "cd_min": 2.0,
+  "cd_max": 14.0,
+  "corr_cd": 0.9383,
+  "freq_mean": 155.3,
+  "freq_median": 122.6,
+  "freq_min": 3.5,
+  "freq_max": 366.0,
+  "rec_mean": 16.9,
+  "rec_median": -1.0,
+  "rec_min": -1,
+  "rec_max": 361,
+  "corr_freq": 0.6429,
+  "corr_rec": -0.7832,
+  "corr_active": 0.9426,
+  "HEALTH_CUT": 70,
+  "ENG_CUT": 70,
+  "hd_n": 25,
+  "hd_pct": 2.5,
+  "fhs_mean": 66.3,
+  "fhs_std": 4.67,
+  "cross_corrs": {
+    "engagement_score": {
+      "engagement_score": 1.0,
+      "financial_health_score": 0.015,
+      "transaction_count_monthly_avg": 0.643,
+      "recency_days": -0.783,
+      "category_diversity_avg": 0.938,
+      "online_spend_ratio_avg": -0.674,
+      "active_days_avg": 0.943
+    },
+    "financial_health_score": {
+      "engagement_score": 0.015,
+      "financial_health_score": 1.0,
+      "transaction_count_monthly_avg": 0.021,
+      "recency_days": -0.003,
+      "category_diversity_avg": 0.036,
+      "online_spend_ratio_avg": -0.083,
+      "active_days_avg": 0.054
+    },
+    "transaction_count_monthly_avg": {
+      "engagement_score": 0.643,
+      "financial_health_score": 0.021,
+      "transaction_count_monthly_avg": 1.0,
+      "recency_days": -0.413,
+      "category_diversity_avg": 0.549,
+      "online_spend_ratio_avg": -0.395,
+      "active_days_avg": 0.631
+    },
+    "recency_days": {
+      "engagement_score": -0.783,
+      "financial_health_score": -0.003,
+      "transaction_count_monthly_avg": -0.413,
+      "recency_days": 1.0,
+      "category_diversity_avg": -0.845,
+      "online_spend_ratio_avg": 0.764,
+      "active_days_avg": -0.838
+    },
+    "category_diversity_avg": {
+      "engagement_score": 0.938,
+      "financial_health_score": 0.036,
+      "transaction_count_monthly_avg": 0.549,
+      "recency_days": -0.845,
+      "category_diversity_avg": 1.0,
+      "online_spend_ratio_avg": -0.861,
+      "active_days_avg": 0.981
+    },
+    "online_spend_ratio_avg": {
+      "engagement_score": -0.674,
+      "financial_health_score": -0.083,
+      "transaction_count_monthly_avg": -0.395,
+      "recency_days": 0.764,
+      "category_diversity_avg": -0.861,
+      "online_spend_ratio_avg": 1.0,
+      "active_days_avg": -0.856
+    },
+    "active_days_avg": {
+      "engagement_score": 0.943,
+      "financial_health_score": 0.054,
+      "transaction_count_monthly_avg": 0.631,
+      "recency_days": -0.838,
+      "category_diversity_avg": 0.981,
+      "online_spend_ratio_avg": -0.856,
+      "active_days_avg": 1.0
+    }
+  },
+  "profile": {
+    "HD Group": {
+      "engagement_score": 46.828,
+      "financial_health_score": 74.028,
+      "transaction_count_monthly_avg": 9.92,
+      "recency_days": 232.04,
+      "category_diversity_avg": 4.68,
+      "online_spend_ratio_avg": 0.606,
+      "active_days_avg": 2.0
+    },
+    "All Others": {
+      "engagement_score": 76.135,
+      "financial_health_score": 66.104,
+      "transaction_count_monthly_avg": 159.059,
+      "recency_days": 11.34,
+      "category_diversity_avg": 13.149,
+      "online_spend_ratio_avg": 0.238,
+      "active_days_avg": 27.039
+    },
+    "Overall": {
+      "engagement_score": 75.401,
+      "financial_health_score": 66.303,
+      "transaction_count_monthly_avg": 155.327,
+      "recency_days": 16.863,
+      "category_diversity_avg": 12.937,
+      "online_spend_ratio_avg": 0.247,
+      "active_days_avg": 26.413
+    }
+  },
+  "eng_by_cd": {
+    "cd_group": {
+      "0": "1\u20135",
+      "1": "6\u20139",
+      "2": "10\u201312",
+      "3": "13\u201314"
+    },
+    "mean": {
+      "0": 47.51,
+      "1": 51.2,
+      "2": 69.7,
+      "3": 78.47
+    },
+    "count": {
+      "0": 71,
+      "1": 26,
+      "2": 488,
+      "3": 10407
+    },
+    "std": {
+      "0": 10.46,
+      "1": 7.4,
+      "2": 6.44,
+      "3": 5.28
+    }
+  },
+  "quadrant": {
+    "High Health\nHigh Engagement": 186,
+    "High Health\nLow Engagement\n\u2605 Target Group": 25,
+    "Low Health\nHigh Engagement": 721,
+    "Low Health\nLow Engagement": 67
+  }
+}
